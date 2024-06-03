@@ -1,10 +1,13 @@
 #pragma once
 
 #include<iostream>
+#include"Weather.h"
 
-class Weather
+class Service
 {
 
+public:
 	virtual Weather getWeather(std::string s) = 0;
+	virtual ~Service() {};
 
 };

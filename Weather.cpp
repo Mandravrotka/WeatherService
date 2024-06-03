@@ -1,14 +1,14 @@
 #include "Weather.h"
 
 
-Weather::Weather() {
+Weather::Weather(std::string city, double lon, double lat, double temperature, std::string weather, double windSpeed, int clouds) {
 
-	city = "Киров";
-	lon = 49.6601;
-	lat = 58.5966;
-	temperature = 5.69;
-	weather = "дождь";
-	windSpeed = 4.27;
-	clouds = 100;
+	this->city = city;
+	this->lon = lon;
+	this->lat = lat;
+	this->temperature = temperature;
+	this->weather = weather;
+	this->windSpeed = windSpeed;
+	this->clouds = clouds;
 
 }
