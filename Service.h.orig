@@ -1,0 +1,19 @@
+#pragma once
+
+#include<iostream>
+#include"Weather.h"
+
+class Service
+{
+<<<<<<< HEAD
+
+public:
+	virtual Weather getWeather(std::string s) = 0;
+	virtual ~Service() {};
+
+=======
+public:
+	virtual Weather getWeather(std::string s) = 0;
+	virtual ~Service() {};
+>>>>>>> feature-xml
+};
